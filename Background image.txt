@@ -1,9 +1,0 @@
-Num site dá pra por a imagem como fundo, isto usando o background-image:url(o destino/nome da imagem.jpg/png).
-
--Repetição de imagens
-
-Também dentro do background-image pode se por uma url de um site externo, porém ela faz com que o browser repita a imagem, para parar com isso usamos o background repeat
-
--Posição de imagens
-
-Nós podemos posicionar imagens num site, usando o background-position. 
