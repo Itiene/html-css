@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('imagens/background002.jpg');
+}
+
+header{
+    background-color: black;
+    height: -10px;
+    width: -10px;
+    margin: -10px -10px 10px -10px;
+    padding: 20px 10px 20px 10px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+}
+
+main{
+    margin: -15px -10px 0px -10px;
+}
+
+main > div#conteudo{
+    background-color: white;
+    padding: 60px;
+}
+
+main > div#conteudo2{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: scroll;
+    padding: 60px;
+}
+
+
+
