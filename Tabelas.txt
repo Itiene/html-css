@@ -1,0 +1,19 @@
+-Hierarquia de Tabelas(simples)
+  No HTML é possível criar tabelas para tal usa-se a tag 'Table' e ela tem as seguintes sub-tags:
+-Table row-é o conteúdo de uma linha
+-Table Header-é um titulo para a tabela
+-Table Data-O conteúdo de cada linha de uma coluna.
+ As tabelas normalmente no excel por exemplo, por padrão, não apresenta as bordas das linhas e colunas, para que apresente elas temos que permitir que ela apresente, o mesmo acontece no html e para tal usamos as css's para colocar as dispersão de linhas, porque sem ela a tabela será apenas um amolgado de letras, formados apenas como uma tabela mas não exatamente de forma visual para todos.
+
+-Alinhamento de conteúdo de tabelas
+  Aqui também é possível alinhar o conteúdo das tabelas, para tal usa-se ou o 'text align' para alinhamento horizontal e o 'vertical-align' para alinhamento vertical.   
+
+-Anatomia de tabelas grandes
+  Table
+    Caption
+    THead
+      TR,TD,TH
+    TBODY
+       TR, TD,TH
+    TFOOT
+       TR, TD, TH
