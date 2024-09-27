@@ -34,4 +34,7 @@
 -Agrupar Colunas com Colgroup
  É possível nós destacarmos colunas, para tal usamos a tag colgroup e dentro dela a tag col de acordo ao números de colunas da tabela.
 
- Também é possível selecionar 3 colunas com a mesma configuração, para tal usamos o span depois da class e depois dele selecionamos o quantas colunas terão a mesma configuração. 
+ Também é possível selecionar 3 colunas com a mesma configuração, para tal usamos o span depois da class e depois dele selecionamos o quantas colunas terão a mesma configuração.
+
+-Responsividade de tabelas
+  Para deixar as tabelas responsivas é só colocar-mos uma div e na css colocar o 'overflow-x:auto'. 
