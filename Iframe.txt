@@ -14,3 +14,8 @@ O iframe é uma técnica que serve para exibir imagem do link introduzido, poré
 
 -Conteúdo no iframe
   Em vez de colocarmos o iframe em branco podemos colocar algo de modo que tenha algo lá, para isso usa-se o srcdoc em vez do src, já que o src ali é inútil, e dentro do srcdoc colocamos qualquer mensagem,imagens ou qualquer outra coisa.
+
+-Segurança do iframe
+ Um iframe nem sempre é 100% seguro, principalmente aqueles criados pelo próprio programador, por isso há sempre que ter segurança, para evitar isso podemos usar o sandbox e o referer-policy, assim ele permite ou não guardar dados ou qualquer outra coisa. Um exemplo de iframes seguros é o google, que no inicio por exemplo ao tentarmos pôr o link do google de modo que mostre o site no iframe ele simplesmente dá erro, porque ele é um frame seguro.
+
+Para alguns os iframes é inútil, porém ele não é, pois sem eles não teríamos os vídeos, mapas e por aí vai.
