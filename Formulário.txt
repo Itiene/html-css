@@ -22,6 +22,29 @@ O Post ao contrário do Get pode ultrapassar das 3000 letras ou bytes, e usado p
 -Caixas de texto e de senha
  Tal como usamos o input:text para preenchimento textual, também usamos para senhas.
  
- Outra coisas sobre essas caixas é que podemos usar o required, para dizer que aquele campo é obrigatório preencher. Também temos o minlength e o maxlength que é usado para indicar o mínimo e o máximo de caracteres. Isso tudo é usado dentro dos inputs. 
+ Outra coisas sobre essas caixas é que podemos usar o required, para dizer que aquele campo é obrigatório preencher. Também temos o minlength e o maxlength que é usado para indicar o mínimo e o máximo de caracteres. Isso tudo é usado dentro dos inputs.
  
-O autocomplete tal como é usado dentro do form também usa-se dentro dos inputs em que na qual ele pode preencher automaticamente senhas, nomes entre outras coisas
+O autocomplete tal como é usado dentro do form também usa-se dentro dos inputs em que na qual ele pode preencher automaticamente senhas, nomes entre outras coisas.
+
+O placeholder é uma marca de água de descrição breve do vai se preencher aí.
+
+-Number, month, date e time 
+ Para além das caixas de texto e senha, também podemos pôr número,mês, data e horário.
+ 
+No caso dos números é o 'input:number' que também tem os inline min e max que serve para colocar os números que terão na barra de pesquisa ou digitando e o value e o step que é para indicar caso haja números com virgula.
+
+O mês é o 'input:month' que apenas tem o inline 'value' que é pra colocar onde ele vai iniciar, e este input só mostra o mês e o ano.
+
+A data é o 'input:date' que diferente do month ela mostra o data inteira e ela também usa o value.
+
+O horário é o 'input-time' e ela também usa o value.
+
+-Compatibilidade dos formulários
+ Os formulários podem causar incompatibilidade em certos navegadores ou dispositivos, por isso há sempre que ter vários navegador e verificar ou ter alguém que possa verificar em caso de dispositivos diferentes.
+
+-Telefone e email
+ O telefone e e-mail também são exemplos de formulários, cada uma com um input diferente.
+
+O telefone é o input:tel e ela têm também uma inline que é o 'pattern' que dá o padrão do cadastro telefónico.
+
+O e-mail é o 'input-email'.
