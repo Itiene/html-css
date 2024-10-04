@@ -48,3 +48,32 @@ O horário é o 'input-time' e ela também usa o value.
 O telefone é o input:tel e ela têm também uma inline que é o 'pattern' que dá o padrão do cadastro telefónico.
 
 O e-mail é o 'input-email'.
+
+-Color, Range e file
+ O color, range e o file também são formulários.
+
+O color é o 'input:color' e ela permite escolher a cor apartir de uma paleta e ela usa value também porém deve-se usar o método hexadecimal.
+
+O range é o 'input:range' e ela permite selecionar o nível de qualquer coisa como: avaliações de site, notas etc.
+
+O file é o 'input:range' e ela permite selecionar um ficheiro qualquer seja foto, documento,video entre outros.
+
+-Select, datalist e textarea
+O select é aquele que é usado para deixar uma lista pronta para o utilizador de um determinado assunto.
+
+O datalist é aquele que é usado para deixar uma lista pronta e permitir que o utilizador adicione mais coisas.
+
+O textarea é aquele que é usado para permitir que o usuário escreva uma mensagem seja de avaliação, descrição de alguma coisa ou mesmo reclamação.
+
+O select e o datalist tem uma diferença que é, o select apenas apresenta coisas adicionadas pelo desenvolvedor ela não permite adicionar nada. Já o datalist permite.
+
+No select existe o optgroup que permite organizar a lista de acordo ao que ela representa.
+
+O datalist normalmente é seguido do input:text e ele tem um value.
+
+O textarea é seguido por um campo de coluna e linha que põe a secção num tamanho adequado ao site.
+
+-Output
+O <output></output> se trata de um elemento de saída, utilizado somente para fins de exibição. É um elemento no qual um processo programado pode injetar os resultados de um cálculo ou o resultado de uma ação do usuário por exemplo.
+
+Por ser um elemento de saída, isso significa que: Quando utilizado, a tag de formulário output deve estar associada a um script. O resultado gerado por esse script, como um número por exemplo, deve ser renderizado no elemento output.

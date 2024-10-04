@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" method="POST" autocomplete="on">
+    <p>
+    
+        <label for="ipro">Estado</label>
+        <select name="província" id="ipro">
+            <optgroup label="Norte de Angola">
+                <option value="LD">Luanda</option>
+                <option value="Bié">Bié</option>
+                <option value="MLG">Malage</option>
+            </optgroup>
+
+             <optgroup label="Sul de Luanda">
+                <option value="NMB">Namibe</option>
+                <option value="LB" selected>Lubango</option>
+                <option value="CTB">Benguela</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="PG">Programador</option>
+            <option value="ECV">Engenheiro Civil</option>
+            <option value="ARQ">Arquiteto</option>
+            <option value="EPT">Engenheiro de Petróleo</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem:</label>
+        <textarea name="msg" id="imsg" cols="30" rows="10">
+        </textarea>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>
