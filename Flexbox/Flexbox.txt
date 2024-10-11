@@ -1,0 +1,55 @@
+ São aquelas usadas para criar adaptação de um container com o conteúdo, com o dispositivo, de modo que não haja nenhuma quebra.
+
+ Normalmente elas usam as técnicas de css "display:flex"(para o conteúdo) e o "flex-auto"(para os itens/conteúdo), para que haja uma fácil adaptação.
+
+ As flexboxs para a sua adaptação elas dependem de um container, que também é chamado de pai, pois é ele quem determina como será feita a adaptação do conteúdo com o dispositivo.
+
+-Direções e Eixos Flexbox
+*Direções:as direções são aquelas em determinam como a caixa vai se adaptar.
+ Nelas temos as seguintes direções:
+1-'flex-direction:row': é aquela em que a adaptação é feita horizontalmente da esquerda para direita.
+
+2-'flex-direction:row-reverse': é aquela em que a adaptação também é feita horizontalmente porém da direita para a esquerda.
+
+3-'flex-direction:column': é aquela em que a adaptaçãp é feita verticalmente,exatamente um coluna(normalmente usada para telefones) e a adaptação é feita de cima para baixo.
+
+4-'flex-direction-column-reverse': ao contario da column a adaptação é feita de baixo para cima. 
+
+*Eixos: os eixos são os extremos da caixa flexível.
+
+Ela divide-se em: cross axis e main axis.
+
+*Cross-Axis*
+ O cross axis para o 'flex-direction:row' é o comprimento da caixa na parte esquerda em que o eixo de cima é o 'cross-axis start' e o de baixo é o 'cross-axis end'.
+
+ O cross axis para o 'flex-direction:row-reverse' é o comprimento da caixa na parte direita em que o eixo de cima é o 'cross-axis start' e o de baixo é o 'cross-axis end'.
+
+ O cross axis para o 'flex-direction:column' é a largura da caixa em que o eixo de esquerdo é o 'cross-axis start' e o de direito é o 'cross-axis end'.
+
+ O cross axis para o 'flex-direction:column' é a largura da caixa em que o eixo de direito é o 'cross-axis start' e o de esquerdo é o 'cross-axis end'.
+
+*Main-Axis*
+O main-axis para o 'flex-direction:row' é a largura da caixa em que o eixo esquerdo é o 'main-axis start' e o de direito é o 'main-axis end'.
+
+O main-axis para o 'flex-direction:row-reverse' é a largura da caixa em que o eixo direito é o 'main-axis start' e o de esquerdo é o 'main-axis end'.
+
+O main-axis para o 'flex-direction:column' é o comprimento da caixa na parte esquerda em que o eixo de cima é o 'main-axis start' e o de baixo é o 'main-axis end'.
+
+O main axis para o 'flex-direction:column-reverse' é o comprimento da caixa na parte esquerda em que o eixo de baixo é o 'main-axis start' e o de cima é o 'main-axis end'.
+
+(Para o caso de dúvida vá em imagens na pasta flexbox)
+
+-Empacotamento e fluxo no Flexbox
+ É aquela em que mostra como será o modo de adaptação, se ela empacota ou não, e ela leva o nome em inglês de 'wrap'.
+
+Ele tem os seguintes empacotamentos:
+1-'Flex-wrap:nowrap': este diz ao navegador que não precisa de empacotar, o que implica dizer que conforme o dispositivo o flex-item(conteúdo) vai encolhendo, e nem sempre ela adapta porque depende do conteúdo.
+
+2-'Flex-wrap:wrap': este diz ao navegador que vai empacotar, o que implica dizer que conforme o dispositivo ela quebra o ultimo conteúdo e passa para outra linha de modo a ter uma melhor visualização. Porém ele depende da direção(flex-direction).
+
+3-'Flex-wrap:wrap-reverse':faz o mesmo que o wrap porém em vez de quebrar o ultimo quebra o 1º e manda para cima.
+
+Nota: Tem como simplificar o flex-direction e o flex-wrap colocando o flex-flow que também é uma técnica shorthand. 
+
+
+
