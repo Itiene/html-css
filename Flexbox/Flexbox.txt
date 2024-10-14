@@ -49,7 +49,35 @@ Ele tem os seguintes empacotamentos:
 
 3-'Flex-wrap:wrap-reverse':faz o mesmo que o wrap porém em vez de quebrar o ultimo quebra o 1º e manda para cima.
 
-Nota: Tem como simplificar o flex-direction e o flex-wrap colocando o flex-flow que também é uma técnica shorthand. 
+Nota: Tem como simplificar o flex-direction e o flex-wrap colocando o flex-flow que também é uma técnica shorthand.
+
+-Alinhamento nos eixos Flexbox
+ Tal como qualquer outro conteúdo, precisa haver um alinhamento para melhor organização de site e por aí vai, e para esse alinhamento no caso das flexbox é usado o 'justify-content' que ajuda no alinhamento de um conteúdo numa caixa e usado apenas no eixo principal, para o transversal usamos o 'align-items'.
+
+ O justify-content é subdividido pelas seguintes atribuições:
+flex+flow:row
+-'justify-content:flex-start':Este aqui alinha o conteúdo da seguinte forma:ela coloca o conteúdo no início e deixa o espaço em branco do jeito que está.
+-'justify-content:flex-end':Este aqui alinha o conteúdo no fim deixando o espaço em branco no inicio do eixo principal(main-start).
+-'justify-content:center':Este aqui alinha o conteúdo no centro, deixando dois espaços em branco de dimensão igual.
+-'justify-content:space-between':Este aqui alinha o conteúdo de modo que haja um espaço entre eles.
+-'justify-content:space-evenly':Este aqui deixa tanto o eixo principal e o final com espaço,quanto entre os conteúdos.
+-justify-content:space-around':Este aqui cria blocos e dentro desses blocos ele centraliza o conteúdo.
+
+flex-flow:column
+-'justify-content:flex-start':Este aqui alinha o conteúdo da seguinte forma:ela coloca o conteúdo no início e deixa o espaço em branco do jeito que está.
+
+-'justify-content:flex-end':Este aqui alinha o conteúdo em baixo deixando o espaço em branco no inicio do eixo principal(main-start).
+-'justify-content:center':Este aqui alinha o conteúdo no centro, deixando os espaços de cima e em baixo em branco de dimensão igual.
+-'justify-content:space-between':Este aqui alinha o conteúdo de modo que haja um espaço entre eles.
+-'justify-content:space-evenly':Este aqui deixa tanto o eixo principal e o final com espaço,quanto entre os conteúdos.
+-justify-content:space-around':Este aqui cria blocos e dentro desses blocos ele centraliza o conteúdo.
+
+O align-items é subdividido pelas seguintes atribuições:
+-'align-items:stretch':é aquele em que o conteúdo,com aumento de tamanho da caixa, coincide com o tamanho dessa mesma caixa.
+
+-'align-items:flex-start':ela alinha o conteúdo em cima deixando a parte de baixo com espaço.
+-'align-items:flex-end':ela alinha o conteúdo em baixo deixando a parte de cima com espaço.
+-'align-items:center':alinha o conteúdo no centro deixando a parte de cima e de baixo com espaços iguais.
 
 
 
