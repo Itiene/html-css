@@ -79,5 +79,25 @@ O align-items é subdividido pelas seguintes atribuições:
 -'align-items:flex-end':ela alinha o conteúdo em baixo deixando a parte de cima com espaço.
 -'align-items:center':alinha o conteúdo no centro deixando a parte de cima e de baixo com espaços iguais.
 
+-Alinhamento de elementos empacotados no Flexbox
+ Para realizar o empacotamento do conteúdo usa-se o 'align-content' e ela se classifica por:
+
+-'align-content:stretch'
+-'align-content:flex-start'
+-'align-content:flex-end'
+-'align-content:center' 
+-'align-content:space-between'
+-'align-content:space-evenly'
+-'align-content:space-around'
+
+*Explicação nas imagens dentro da pasta*
+
+-Alinhamento dos itens Flexbox
+Tal como os containers(pai) também temos como configurar os itens e neles temos as seguintes configurações:
+
+-'order': é aquele usado para ordenar o conteúdo(itens)
+
+-'align-self':é aquele usado para saber o estado do conteúdo.
+
 
 
