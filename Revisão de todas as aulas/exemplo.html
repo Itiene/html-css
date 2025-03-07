@@ -72,8 +72,13 @@
             <button class="close-btn" onclick="fecharPopup()">X</button>
             <h2>Lista de Vídeos</h2>
             <div class="video-list">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                <ol>
+                    <li>Julio Cocielo</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xgTBcDiXi_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <li>Combo Infinito</li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VUpXku-xi0k?si=2I0smu4q1MUf9use" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                </ol>
             </div>
         </div>
     </div>
@@ -84,7 +89,14 @@
         }
 
         function fecharPopup() {
-            document.getElementById("popup").style.display = "none";
+            let popup = document.getElementById("popup");
+            popup.style.display = "none";
+
+            // Parar os vídeos redefinindo o src
+            let iframes = popup.querySelectorAll("iframe");
+            iframes.forEach(iframe => {
+                iframe.src = iframe.src;
+            });
         }
     </script>
 
