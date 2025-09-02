@@ -16,4 +16,4 @@ As propriedades de um container são:
 Display:usado para criar um grid container usando(display:grid) no css;
 Grid-template-columns:usado para reposicionar as grades formando uma coluna;
 Grid-template-rows:usado para redimensionar as linhas das grades de acordo a dimensão desejada;
-Grid-gap:usado para redimensionar o conteudo da grade de acordo a dimensão desejada;
+Grid-gap:usado para redimensionar o conteudo da grade de acordo a dimensão desejada.Porém esse nome já não é usado só o gap.;
