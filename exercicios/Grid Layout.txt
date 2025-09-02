@@ -1,0 +1,19 @@
+Grid Layout é um sistema de layout baseado em uma grande bidimensional e otimizado para design de interfaces de usuário.Nesse modelo de grade, os elementos-filhos do conteiner que defina a grade podem ser posicionados livremente em espaços criados na estrutura que ela tenha sido definida com suas dimensões flexíveis ou fixas.
+Ou seja ela permite alinhar o conteudo em determinadas aréas na sua respectiva grade.
+
+-Anatomia de um Grid
+O Grid layout é composto por:
+Grid container:que é a área que compõe as grades;
+Grid item:que é uma unica grade desse container;
+Grid track:que a area que delimitada a grade seja ela horizontal ou vertical;
+Row track: que é a area delimitada da grade na horizontal;
+Column track:que é a area delimitada da grade na vertical;
+Grid lines:que são as linhas que formam as grades sejam elas horizontais ou verticais; 
+Grid area:que é um certo conjunto de grades;
+
+-Propriedades de container para Grids
+As propriedades de um container são:
+Display:usado para criar um grid container usando(display:grid) no css;
+Grid-template-columns:usado para reposicionar as grades formando uma coluna;
+Grid-template-rows:usado para redimensionar as linhas das grades de acordo a dimensão desejada;
+Grid-gap:usado para redimensionar o conteudo da grade de acordo a dimensão desejada;
