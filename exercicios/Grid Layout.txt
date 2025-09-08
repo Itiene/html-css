@@ -28,3 +28,14 @@ Place-content:que simplifica os align e justify content. E essa é realmente a o
 Grid-template:que simplifica os template-rows e columns. E essa é realmente a ordem de propriedades dela porém adicionando uma '/'.
 Função repeat():usado para colocar a quantidade de vezes que uma determinada dimensão precisa ser repetida.Usando da seguinte forma:repeat(a quantidade de repetições,a dimensão)
 Unidade fraction:é usada para num container com uma determinada dimensão fraccionar por partes iguais ou não.Ela é medida com o valor(fr).
+
+-Propriedades de itens para Grids
+As propriedades dos itens são:
+-Grid-row-start:que indica a linha principal que o sistema vai se basear no ajustamento de janelas.
+-Grid-row-end:que indica a linha final que o sistema vai se basear até onde vai o ajustamento de janelas.
+-Grid-column-start:que indica a coluna principal que o sistema vai se basear no ajustamento de janelas.
+-Grid-column-end:que indica a coluna final que o sistema vai se basear até onde vai o ajustamento de janelas. 
+-span:que indica quantas linhas ela se expandiu. 
+-grid-row:que é uma forma simplificada do grid-row-start e do end.
+-grid-column::que é uma forma simplificada do grid-column-start e end. 
+-grid-area:que uma simplificação maior do grid-column e do grid-row
